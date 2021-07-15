@@ -1,0 +1,18 @@
+.header {padding-top: 1rem;}
+
+.header-content { margin-left: 4rem;
+    height: auto; width: 91%; overflow: hidden; 
+    border-radius: 0.5rem;
+}
+
+.carousel-item {transition-duration: 3s;}
+.content {width: auto;  margin-top: 1rem; display: flex; flex-wrap: wrap; margin-left: 2rem;}
+
+.content-box { margin-left: 2rem; margin-bottom: 2rem; border-radius: 0.6rem;cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(54, 54, 54, 0.2), 0 8px 16px 0 rgba(19, 15, 15, 0.19);}
+
+.content-images { width: 22rem; height: 23rem; overflow: hidden; background-color: white; border-radius: 0.5rem;}
+
+.content-images p { padding: 0.6rem; text-align: start;}
+
+.btn {width: 6rem; width: 6rem; height: 3rem; margin-left: 90.5rem; margin-bottom: 2rem;}

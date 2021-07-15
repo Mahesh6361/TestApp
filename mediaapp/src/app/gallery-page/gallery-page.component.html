@@ -1,0 +1,26 @@
+<div class="header" >
+    <!-- <div class="header-content">
+        
+    </div> -->
+
+    <div class="content" *ngIf = "displayTeams">
+        <div class="card content-box" *ngFor = "let teams of Teams" >
+            <div class="content-images" (click)="showPlayers(teams.imagePath)">
+                <img [src]="teams.imagePath" width="100%" alt="">
+                <p><b>{{teams.description}}</b></p>
+            </div>
+        </div>
+    </div>
+    
+    <div *ngIf = "displayPlayer">
+        <div class="content" >
+            <div class="card content-box" *ngFor = "let player of displayPlayers">
+                <div class="content-images">
+                    <img [src]="player.imagePath2" width="100%" alt="">
+                    <p><b>{{player.description}}</b></p>
+                </div>
+            </div>
+            <button class="btn btn-primary" (click)="backToTeams()">Back</button>
+        </div>
+    </div>
+</div>

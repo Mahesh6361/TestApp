@@ -1,0 +1,44 @@
+.main {
+    width: 100%;
+    padding: 0.5rem;
+}
+.aboutus {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    background-color: white;
+}
+.aboutus h2 {
+    color: #364b80;
+    /* opacity: 0.7; */
+}
+.about-content {
+    display: flex;
+    background-color: white;
+    padding: 3rem;
+}
+.image {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+.image img {
+    margin-left: 15rem;
+}
+.about-list ul{
+    margin-left: 10rem;
+}
+.about-list ul h4 {
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+.about-list ul li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 2.4rem;
+    opacity: 0.8;
+    cursor: pointer;
+}

@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'mediaapp'`, () => {
+  it(`should have as title 'mediaApp'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('mediaapp');
+    expect(app.title).toEqual('mediaApp');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('mediaapp app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('mediaApp app is running!');
   });
 });

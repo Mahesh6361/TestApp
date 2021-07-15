@@ -1,0 +1,66 @@
+.header {
+    padding-top: 1rem;
+}
+
+.header-content {
+    background: white; 
+    margin-left: 0rem; 
+    position: relative;
+    text-align: center;
+    height: 25rem;  
+    color: white; 
+    width: 60%; 
+    overflow: hidden; 
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.header-content img { 
+    width: 100%; 
+    height: 100%; 
+    border-radius: 1rem;
+}
+
+.header-content .centered-text { 
+    position: absolute;
+    top: 82%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    width: auto;  
+    margin-top: 1rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-left: 2rem;
+}
+
+.content-box { 
+    margin-left: 2rem; 
+    margin-bottom: 2rem; 
+    border-radius: 0.6rem;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(54, 54, 54, 0.2), 0 8px 16px 0 rgba(19, 15, 15, 0.19);
+}
+
+.content-images { 
+    width: 22rem; 
+    height: 23rem; 
+    overflow: hidden; 
+    background-color: white; 
+    border-radius: 0.5rem;
+}
+
+.content-images p { 
+    padding: 0.6rem; 
+    text-align: start;
+}
+
+.btn {
+    width: 6rem; 
+    width: 6rem; 
+    height: 3rem; 
+    margin-left: 90.5rem; 
+    margin-bottom: 2rem;
+}
