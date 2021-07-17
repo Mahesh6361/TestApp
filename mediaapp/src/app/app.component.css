@@ -5,12 +5,12 @@
 
 /* Header */
 .navbar {
+    position: sticky; 
+    position: -webkit-sticky; 
     justify-content:left; 
     padding-left: 20px; 
     height: 5rem; 
     background: linear-gradient(to right,rgb(56, 119, 201), rgba(2, 76, 99)) ;
-    position: sticky; 
-    position: -webkit-sticky; 
     top: 0; 
     z-index: 3; 
     box-shadow: 0 8px 16px 0 rgba(54, 54, 54, 0.2), 0 8px 16px 0 rgba(19, 15, 15, 0.19);
@@ -30,7 +30,7 @@ h2 {
 .navbar .username{
     position: absolute;
     right: 8rem;
-    background-color: whitesmoke;
+    background-color: rgba(207, 126, 19); 
     color: white;
     margin-top: 9px;
 }

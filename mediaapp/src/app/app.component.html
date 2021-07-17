@@ -12,7 +12,9 @@
             <li class="nav-item" (click) = "selectedLink('about')">
               <a class="nav-link" routerLink = "about" [class.active]="selectedcol=='about'">About us</a>
             </li>
-            <li class="username"><a href="">{{LoggedUser}}</a></li>
+            <li class="username">
+                <a routerLink = "">{{LoggedUser}}</a>
+            </li>
             <li class="nav-item" *ngIf= "logins">
               <a routerLink = "/" class="nav-link"  (click)="openLg(contentt)">Login</a>
             </li>

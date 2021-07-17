@@ -25,7 +25,7 @@ export class AppComponent {
   
   constructor(private modalService: NgbModal, private router:Router) { 
 
-    sessionStorage.setItem('userLogged','false')    
+    // sessionStorage.setItem('userLogged','false')    
   }
 
          
